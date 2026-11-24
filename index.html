@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="es" data-motion="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#112b26">
+<meta name="description" content="Una decisión estratégica para la sostenibilidad y competitividad del SENA. Presentación interactiva de Iván Leonardo Sosa Munévar y Natalia Andrea López Hernández.">
+<title>SENA 2030 · Decidir hoy, sostener el futuro</title>
+<style>
+:root{--ink:#122c27;--paper:#f4f7f3;--green:#c0ee88;--teal:#78c8bc;--muted:#557268;--line:#d4dfd7;--white:#fff;--ease:cubic-bezier(.22,.75,.15,1);font-family:"Segoe UI",Arial,sans-serif;color:var(--ink);font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;background:#0b1d19;overflow:hidden}button,a,input{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:4px solid #4c9f93;outline-offset:5px}button:disabled{cursor:default;opacity:.35}button{border:0}a{color:inherit;text-underline-offset:4px}p{line-height:1.5;margin:0 0 20px}h1,h2,h3{margin:0;line-height:1.08;font-weight:600;letter-spacing:-.045em}h1{font-size:76px}h2{font-size:58px;max-width:980px}h3{font-size:29px;letter-spacing:-.025em}em{font-family:Georgia,"Times New Roman",serif;font-weight:400}svg{display:block;max-width:100%;overflow:visible}svg text{font-family:"Segoe UI",Arial,sans-serif}.topbar{height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 32px;color:#eef8ef;border-bottom:1px solid #ffffff19;position:relative;z-index:5}.brand{display:flex;align-items:center;gap:13px;font-size:17px;letter-spacing:.02em}.brand-symbol{width:25px;height:25px;display:grid;grid-template-columns:repeat(2,1fr);gap:3px;transform:rotate(-12deg)}.brand-symbol i{background:var(--green);border-radius:2px}.brand small{font-size:14px;color:#a4bbad;margin-left:12px;letter-spacing:.07em}.tools{display:flex;gap:5px;align-items:center}.tool{font-size:14px;border:1px solid #ffffff22;background:transparent;color:#e3eee5;border-radius:6px;padding:9px 13px;white-space:nowrap}.tool:hover,.tool[aria-pressed="true"]{background:#ffffff14;border-color:#98c9ac}.tool.icon{font-size:19px;line-height:1;padding:10px 13px}.stage{position:absolute;inset:70px 0 96px;overflow:hidden}.world{position:absolute;left:0;top:0;width:5460px;height:3480px;transform-origin:0 0;transition:transform 1s var(--ease);will-change:transform}.map-path{position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .6s}.overview .map-path{opacity:.45}.frame{position:absolute;width:1200px;height:720px;background:var(--paper);border-radius:13px;box-shadow:0 20px 85px #0004;overflow:hidden;isolation:isolate;opacity:0;transition:opacity .4s}.frame.active{opacity:1}.slide{height:100%;padding:44px 52px 28px;display:flex;flex-direction:column;position:relative}.eyebrow{font-size:17px;text-transform:uppercase;letter-spacing:.13em;margin-bottom:19px;font-weight:600;display:flex;align-items:center;gap:12px}.eyebrow::before{content:"";width:30px;height:2px;background:currentColor;opacity:.6}.main{flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;font-size:24px;padding:28px 0 12px}.main.wide{display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:22px}.main.start{align-items:start}.main p:last-child{margin-bottom:0}.intro{font-size:26px;line-height:1.45;letter-spacing:-.015em}.big{font-size:36px;line-height:1.3;letter-spacing:-.03em}.muted{color:var(--muted)}.tiny{font-size:17px;line-height:1.4}.micro{font-size:16px;line-height:1.45}.citation{font-size:16px;line-height:1.35;color:var(--muted);padding-top:15px;border-top:1px solid var(--line);flex-shrink:0}.citation a{font-size:inherit}.tag{display:inline-block;border:1px solid var(--line);font-size:16px;padding:7px 11px;border-radius:4px;letter-spacing:.025em}.dark{background:var(--ink);color:var(--paper)}.dark .muted,.dark .citation{color:#b3cbbb}.dark .citation{border-color:#ffffff24}.dark .tag{border-color:#63816a}.accent{color:#4b7e38}.dark .accent{color:var(--green)}.cover{background:#112e27}.cover:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 85% 60%,#3d765036,transparent 65%);z-index:-1}.cover .main{grid-template-columns:1.2fr 1fr;padding-top:0}.cover h1{max-width:660px}.cover .subtitle{font-size:25px;color:#c1d2c3;margin:26px 0}.author{font-size:19px;line-height:1.65;color:#d5e2d4}.author strong{font-weight:500;display:block}.cover-foot{display:flex;justify-content:space-between;align-items:center;margin-top:auto}.cover-foot .tiny{color:#a6c4ae}.cover .main{gap:10px}.cover-art{position:relative}.cover-art svg{width:460px;height:460px}.cover-art .year{font-size:86px;font-weight:300;letter-spacing:-5px;fill:#d6efbd}.cover-art .circle{stroke:#91bf83;fill:none;stroke-width:1;opacity:.37}.cover-art .orbit{stroke-dasharray:2 9;opacity:.6;transform-origin:center;animation:orbit 90s linear infinite}.cover-art .route-line{fill:none;stroke:#badf9b;stroke-width:1.5;stroke-dasharray:800;stroke-dashoffset:800}.active .route-line{animation:draw 2.2s var(--ease) .3s forwards}.cover-art .art-label{fill:#c1d8bd;font-size:19px}.cover-art .art-kicker{fill:#83a88a;font-size:15px;letter-spacing:3px}.start-btn,.solid-btn{background:var(--green);color:var(--ink);padding:14px 24px;border-radius:7px;font-size:19px;font-weight:600;display:inline-flex;align-items:center;justify-content:center}.start-btn:hover,.solid-btn:hover{background:#d8ffaa}.solid-btn{background:var(--ink);color:white}.solid-btn:hover{background:#2b5142}.map-hit{position:absolute;inset:0;background:transparent;z-index:10;display:none}.map-caption{display:none}.overview .frame{opacity:1;cursor:pointer;box-shadow:0 0 0 3px #ffffff15,0 20px 80px #0005}.overview .map-hit{display:block}.overview .slide>*{visibility:hidden}.overview .map-caption{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;flex-direction:column;padding:60px;text-align:center;gap:32px;color:var(--ink)}.overview .dark .map-caption{color:var(--paper)}.overview .map-caption span{font-size:35px;text-transform:uppercase;letter-spacing:.1em;opacity:.65}.overview .map-caption strong{font-size:70px;line-height:1.1;letter-spacing:-.03em}.overview .map-caption small{font-size:35px;color:#427347}.overview .frame.active{box-shadow:0 0 0 10px var(--green),0 20px 80px #0008}.overview-label{position:absolute;top:24px;left:32px;color:#d0e3d0;letter-spacing:.08em;font-size:14px;text-transform:uppercase;opacity:0;pointer-events:none;transition:opacity .3s}.overview .overview-label{opacity:1}.bottom{position:fixed;bottom:0;left:0;right:0;height:96px;background:#0b1d19;color:#e7f1e8;z-index:5;padding:15px 32px;display:flex;gap:24px;align-items:center;border-top:1px solid #ffffff16}.nav-meta{min-width:180px}.nav-meta b{display:block;font-size:16px;font-weight:500;margin-bottom:4px}.nav-meta small{color:#9fb7a7;font-size:13px}.route-dots{display:flex;align-items:center;gap:9px;flex:1;justify-content:center}.route-dot{height:10px;width:10px;border-radius:10px;background:#526c5b;padding:0;transition:width .35s,background .35s;position:relative}.route-dot:before{content:"";position:absolute;inset:-10px}.route-dot.active{width:35px;background:var(--green)}.route-dot:hover{background:#c0ee88}.nav-actions{display:flex;gap:10px;align-items:center}.nav{padding:13px 19px;background:transparent;border:1px solid #5a7463;border-radius:6px;color:#eaf4e8;font-size:15px}.nav.next{background:var(--green);border-color:var(--green);color:var(--ink);font-weight:600;min-width:106px}.nav:hover{filter:brightness(1.15)}.counter{font-size:14px;color:#afc4b5;min-width:49px;text-align:center}.progress{position:absolute;top:-1px;left:0;height:3px;background:var(--green);transition:width .6s var(--ease)}.stack{display:grid;gap:17px}.statement{padding-left:24px;border-left:4px solid #5a8d48}.statement .tiny{margin-top:9px}.decision-word{font-size:24px;line-height:1.45}.visual-panel{background:#e5eee5;border-radius:11px;padding:25px;min-width:0}.visual-panel.dark-panel{background:#1d3d32;color:white}.principle{display:flex;align-items:start;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}.principle:last-child{border:0}.principle b{display:block;font-size:24px;line-height:1.25;margin-bottom:6px}.pill-number{width:36px;height:36px;border-radius:50%;background:#d7e9ce;display:grid;place-items:center;flex-shrink:0;font-size:17px}.disc{height:330px;position:relative;display:grid;place-items:center}.disc-center{width:174px;height:174px;border-radius:50%;background:var(--ink);color:#e0f5d1;display:grid;place-items:center;text-align:center;font-size:29px;line-height:1.16;border:14px solid #e1ebdd;box-shadow:0 0 0 1px #96b397}.disc-ring{position:absolute;width:305px;height:305px;border:1px solid #9fbaa4;border-radius:50%;pointer-events:none}.disc-label{position:absolute;background:var(--paper);border:1px solid #a0bba5;font-size:19px;padding:9px 18px;border-radius:30px}.disc-label.top{top:0}.disc-label.left{left:-3px;bottom:51px}.disc-label.right{right:-6px;bottom:51px}.active .disc-center{animation:pop .8s var(--ease)}.choice{display:block;width:100%;text-align:left;background:transparent;color:inherit;border-radius:7px;padding:13px 15px;border:1px solid var(--line);font-size:19px;transition:background .2s,border .2s}.choice[aria-selected="true"],.choice.selected{background:#dcefcf;border-color:#719e53}.choice strong{display:block;font-weight:600;margin-bottom:6px;font-size:21px}.choice:hover{border-color:#5f8d5c}.choices{display:grid;gap:10px}.bar{height:15px;background:#d6e0d5;border-radius:20px;overflow:hidden;margin:14px 0 5px}.bar>i{display:block;height:100%;background:#8aab85;width:var(--value);border-radius:20px;transform-origin:left;transform:scaleX(0)}.bar.recommended>i{background:#427648}.active .bar>i{animation:grow .95s var(--ease) .1s forwards}.bar-label{display:flex;justify-content:space-between;font-size:21px;line-height:1.25;gap:20px}.bar-label strong{font-weight:600;white-space:nowrap}.bar-group{margin-bottom:25px}.matrix-toggle{background:transparent;text-decoration:underline;text-underline-offset:4px;padding:0;font-size:17px;color:#3a6943}.split-note{margin-top:20px;font-size:20px;line-height:1.45;color:#426448}.tab-row{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}.tab-btn{padding:10px 16px;border-radius:25px;border:1px solid #adc2ad;background:transparent;font-size:18px;color:var(--ink)}.tab-btn[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:white}.tab-output{min-height:145px}.tab-output h3{margin-bottom:14px;font-size:34px}.tab-output p{font-size:24px}.value-circle{width:355px;height:355px;position:relative;margin:auto}.value-circle svg{width:100%;height:100%}.value-core{position:absolute;inset:103px;border-radius:50%;background:var(--ink);color:white;display:grid;place-items:center;text-align:center;font-size:28px;line-height:1.15;pointer-events:none}.value-piece{cursor:pointer;transition:fill .2s,transform .2s;transform-origin:180px 180px;stroke:var(--paper);stroke-width:8;fill:#b8cfb0}.value-piece.selected{fill:#4a7d4e}.value-piece:hover{fill:#7da56d}.value-label{font-size:21px;fill:var(--ink);pointer-events:none}.selected+.value-label{fill:white}.concept-list{display:grid;grid-template-columns:1fr 1fr;gap:15px}.concept{padding:21px;background:#e6eee3;border-radius:7px;font-size:21px;line-height:1.4}.concept b{font-size:23px;display:block;margin-bottom:10px}.concept small{display:block;font-size:16px;color:#5d765e;margin-top:13px}.highlight-line{padding:17px 22px;background:#d8edc9;border-radius:6px;font-size:23px;line-height:1.4}.scenario-layout{grid-template-columns:1.03fr 1fr}.scenario-board{position:relative;padding:22px 0 30px 35px}.scenario-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;position:relative}.scenario{min-height:143px;border:1px solid #a2b9a2;border-radius:7px;background:#e8efe5;color:var(--ink);padding:18px;text-align:left}.scenario strong{font-size:22px;line-height:1.2;display:block}.scenario small{display:block;font-size:16px;margin-top:10px;color:#5a715c}.scenario[aria-selected="true"]{background:var(--ink);color:#ecf7df;border-color:var(--ink)}.scenario[aria-selected="true"] small{color:#bbd2b8}.axis-y{position:absolute;left:-16px;top:50%;transform:translate(-42%,-50%) rotate(-90deg);font-size:15px;white-space:nowrap;color:#4d6b53}.axis-x{position:absolute;bottom:0;left:35px;right:0;text-align:center;font-size:15px;color:#4d6b53}.scenario-detail{padding-left:22px;border-left:3px solid #87ad6c}.scenario-detail h3{font-size:33px;margin-bottom:20px}.scenario-detail p{font-size:23px;line-height:1.42}.scenario-detail .trigger{background:#e2ebdf;border-radius:6px;padding:14px;font-size:18px}.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:17px}.legend span{display:flex;gap:7px;align-items:center}.legend i{width:10px;height:10px;border-radius:50%;background:var(--ink)}.system-svg{height:295px;width:100%}.flow-path{stroke:#8aab87;stroke-width:2;fill:none;stroke-dasharray:7 7;animation:flow 10s linear infinite}.node{fill:#e3ecdE;stroke:#96b18b;stroke-width:1}.node-primary{fill:var(--ink);stroke:var(--ink)}.node-label{font-size:21px;fill:var(--ink);text-anchor:middle}.node-label.white{fill:#e9f4e3}.system-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.system-row .choice{padding:12px;font-size:18px;text-align:center}.system-output{font-size:20px;line-height:1.4;padding:16px 20px;background:#e2edda;border-radius:7px;min-height:88px}.roadmap{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;position:relative;margin:18px 0 12px}.roadmap:before{content:"";position:absolute;left:0;right:0;top:33px;height:2px;background:#adc5a2}.phase-btn{position:relative;text-align:left;background:transparent;padding:0 12px 0 0;color:var(--ink);font-size:23px;line-height:1.25}.phase-btn .phase-mark{display:block;width:66px;height:66px;border-radius:50%;border:1px solid #99b48c;background:var(--paper);position:relative;margin-bottom:18px;display:grid;place-items:center;font-size:19px}.phase-btn[aria-selected="true"] .phase-mark{background:var(--ink);color:var(--green);border-color:var(--ink)}.phase-btn strong{display:block;font-size:24px;margin-bottom:8px}.phase-btn small{font-size:17px;color:#59735d}.phase-detail{display:grid;grid-template-columns:1fr 1fr;gap:25px;background:#e2edde;padding:23px;border-radius:8px;min-height:145px;font-size:21px;line-height:1.4}.phase-detail b{display:block;font-size:17px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px;color:#51764b}.metric-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.metric{border:1px solid var(--line);border-radius:8px;padding:23px;background:#edf2e9;text-align:left;color:var(--ink);position:relative}.metric .metric-target{font-size:40px;font-weight:500;letter-spacing:-.04em;display:block;color:#396941;margin-bottom:10px}.metric h3{font-size:25px;margin-bottom:9px}.metric p{font-size:18px;line-height:1.4;margin-bottom:9px}.metric small{display:block;font-size:16px;color:#5b725a}.metric:hover{border-color:#58824c}.metric:after{content:"Ver ficha";position:absolute;right:16px;top:18px;font-size:14px;color:#628158}.leader-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.leader-btn{text-align:left;border-bottom:1px solid var(--line);background:transparent;padding:15px 10px;color:var(--ink);font-size:21px;line-height:1.23}.leader-btn[aria-selected="true"]{background:#dceccf;border-radius:5px;border-color:#dceccf}.leader-btn:last-child{grid-column:span 2}.leader-detail{background:var(--ink);border-radius:10px;padding:32px;color:#edf6e9;min-height:300px;display:flex;flex-direction:column;justify-content:center}.leader-detail h3{font-size:35px;color:var(--green);margin-bottom:22px}.leader-detail p{font-size:24px}.leader-detail .tiny{color:#bed2bb}.risk-list{display:grid;gap:10px}.risk-list details{border-bottom:1px solid var(--line);padding:12px 0}.risk-list summary{cursor:pointer;font-size:24px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:20px}.risk-list summary:after{content:"+";font-weight:300}.risk-list details[open] summary:after{content:"−"}.risk-list details p{font-size:21px;line-height:1.43;margin:13px 0 5px;color:#44634b}.risk-visual{padding:30px 30px 20px;background:#e0ecda;border-radius:9px}.risk-visual .big{font-size:33px;margin-bottom:20px}.risk-visual .semaphore{display:flex;gap:12px;margin:30px 0 20px}.semaphore i{height:12px;flex:1;border-radius:10px;background:#cad8c0}.semaphore i:first-child{background:#598a44}.semaphore i:nth-child(2){background:#c6aa66}.semaphore i:nth-child(3){background:#9d7563}.closing .main{grid-template-columns:1.1fr 1fr}.closing h2{font-size:68px;line-height:1.12}.closing .promise{font-size:27px;line-height:1.5;color:#cfdfc9}.closing-art{padding:25px}.closing-art svg{height:260px;margin:auto}.source-list{overflow:auto;max-height:100%;padding-right:15px;scrollbar-color:#71916e transparent}.source-list h3{font-size:24px;margin:5px 0 18px}.source-list p{font-size:18px;line-height:1.42;margin-bottom:16px;padding-left:20px;text-indent:-20px}.source-list .source-status{font-size:15px;color:#53734f;display:block;text-indent:0;margin-top:5px}.sources .main{grid-template-columns:1.08fr .92fr;gap:35px;align-items:stretch}.scope-note{background:#e2ecdb;padding:22px;border-radius:8px;font-size:19px;line-height:1.47;margin-bottom:20px}.scope-note b{display:block;font-size:21px;margin-bottom:10px}.scope-note p{margin:0;font-size:19px}.source-date{font-size:16px;color:#65805f}.slide-notes-print{display:none}.reveal{opacity:0;transform:translateY(13px)}.active .reveal{animation:appear .65s var(--ease) .15s forwards}.active .reveal:nth-child(2){animation-delay:.25s}.active .reveal:nth-child(3){animation-delay:.35s}
+dialog{border:0;border-radius:12px;max-width:min(850px,calc(100vw - 32px));max-height:85dvh;width:850px;padding:0;background:var(--paper);color:var(--ink);box-shadow:0 30px 130px #0008}dialog::backdrop{background:#061510b8;backdrop-filter:blur(8px)}.dialog-top{display:flex;align-items:center;justify-content:space-between;padding:22px 28px;border-bottom:1px solid var(--line);gap:15px}.dialog-top h2{font-size:26px;letter-spacing:-.02em}.dialog-close{background:#e0e9db;color:var(--ink);padding:8px 12px;border-radius:6px;font-size:17px}.dialog-body{padding:25px 28px;overflow:auto;max-height:calc(85dvh - 80px);font-size:19px;line-height:1.6}.dialog-body h3{font-size:25px;margin-bottom:15px}.dialog-body p{margin-bottom:18px}.dialog-body table{border-collapse:collapse;font-size:16px;line-height:1.4;width:100%;margin:18px 0}.dialog-body th,.dialog-body td{border:1px solid #b5c8ad;padding:10px;text-align:left}.dialog-body th{background:#dfead8}.dialog-body .tiny{font-size:16px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.toast{position:fixed;bottom:110px;left:50%;transform:translateX(-50%);padding:10px 20px;background:#e6f7db;color:#183723;border-radius:7px;font-size:14px;z-index:30;box-shadow:0 6px 30px #0004}.toast[hidden]{display:none}
+@keyframes appear{to{opacity:1;transform:none}}@keyframes grow{to{transform:scaleX(1)}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes pop{from{transform:scale(.86);opacity:.5}to{transform:scale(1);opacity:1}}@keyframes flow{to{stroke-dashoffset:-140}}@keyframes orbit{to{transform:rotate(360deg)}}
+html[data-motion="off"] *,html[data-motion="off"] *:before,html[data-motion="off"] *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}html[data-motion="off"] .reveal{opacity:1;transform:none}html[data-motion="off"] .bar>i{transform:scaleX(1)}html[data-motion="off"] .route-line{stroke-dashoffset:0}
+@media(prefers-reduced-motion:reduce){html:not([data-user-motion="on"]) *{animation:none!important;transition:none!important}html:not([data-user-motion="on"]) .reveal{opacity:1;transform:none}html:not([data-user-motion="on"]) .bar>i{transform:scaleX(1)}html:not([data-user-motion="on"]) .route-line{stroke-dashoffset:0}}
+@media(max-width:700px){body{overflow:hidden}.topbar{height:61px;padding:0 16px}.brand{font-size:14px;gap:8px}.brand small{display:none}.brand-symbol{width:20px;height:20px}.tools{gap:3px}.tool{font-size:13px;padding:8px}.tool.motion,.tool.fullscreen{display:none}.stage{inset:61px 0 85px;overflow:auto;scrollbar-color:#557d59 transparent}.world{position:relative;transform:none!important;width:100%;height:auto;transition:none;padding:0}.frame{position:relative!important;left:auto!important;top:auto!important;width:100%;height:auto;min-height:calc(100dvh - 146px);border-radius:0;display:none;opacity:1}.frame.active{display:block}.slide{min-height:calc(100dvh - 146px);height:auto;padding:28px 23px 25px}.eyebrow{font-size:12px;letter-spacing:.08em;margin-bottom:17px}.eyebrow:before{width:22px}h1{font-size:46px}h2{font-size:36px}h3{font-size:25px}.cover .main,.main,.closing .main,.sources .main,.scenario-layout{display:flex;flex-direction:column;align-items:stretch;gap:26px;font-size:18px;padding-top:24px}.main.wide{gap:24px}.intro{font-size:21px}.big{font-size:28px}.decision-word,.tab-output p{font-size:20px}.main .tiny{font-size:15px}.citation{font-size:13px;line-height:1.5;margin-top:12px}.cover .main{padding-top:6px;gap:10px}.cover .subtitle{font-size:19px;margin:23px 0}.cover-art{display:none}.author{font-size:16px;margin-bottom:25px}.cover-foot{margin-top:5px;display:block}.cover-foot .tiny{font-size:14px;margin-top:17px}.cover-foot .start-btn{font-size:17px}.tag{font-size:13px}.bottom{height:85px;padding:12px 16px;gap:6px;justify-content:space-between}.nav-meta{min-width:0;max-width:115px}.nav-meta b{font-size:13px;line-height:1.3}.nav-meta small{display:none}.nav{font-size:13px;padding:11px 12px}.nav.next{min-width:88px}.nav-actions{gap:6px}.counter{font-size:12px;min-width:36px}.route-dots{display:none}.disc{width:100%;height:290px;margin:15px 0}.disc-ring{width:260px;height:260px}.disc-center{width:160px;height:160px;font-size:25px}.disc-label{font-size:16px}.disc-label.left{left:0}.disc-label.right{right:0}.bar-label{font-size:18px}.bar-group{margin-bottom:22px}.matrix-toggle{font-size:16px}.choice{font-size:17px}.choice strong{font-size:19px}.value-circle{width:290px;height:290px}.value-core{inset:84px;font-size:23px}.tab-btn{font-size:15px;padding:8px 12px}.tab-output{min-height:0}.tab-output h3{font-size:28px}.concept-list{grid-template-columns:1fr}.concept{font-size:18px}.concept b{font-size:20px}.highlight-line{font-size:19px}.scenario-layout{gap:20px}.scenario-board{padding-left:24px}.scenario{min-height:127px;padding:14px}.scenario strong{font-size:18px}.scenario small{font-size:13px}.axis-y,.axis-x{font-size:12px}.scenario-detail{padding:0 0 0 17px}.scenario-detail h3{font-size:27px}.scenario-detail p{font-size:19px}.system-svg{height:230px}.system-row{gap:7px}.system-row .choice{font-size:15px;padding:9px}.system-output{font-size:18px}.roadmap{grid-template-columns:1fr 1fr;gap:22px}.roadmap:before{display:none}.phase-btn strong{font-size:19px}.phase-btn small{font-size:15px}.phase-btn .phase-mark{width:47px;height:47px;margin-bottom:11px;font-size:15px}.phase-detail{grid-template-columns:1fr;font-size:18px;padding:19px;gap:18px}.metric-grid{grid-template-columns:1fr}.metric .metric-target{font-size:32px}.metric h3{font-size:23px}.metric p{font-size:17px}.leader-grid{gap:5px}.leader-btn{font-size:17px;padding:14px 8px}.leader-detail{padding:24px;min-height:245px}.leader-detail h3{font-size:28px}.leader-detail p{font-size:20px}.risk-list summary{font-size:20px}.risk-list details p{font-size:18px}.risk-visual{padding:23px}.risk-visual .big{font-size:26px}.closing h2{font-size:40px}.closing .promise{font-size:21px}.closing-art{display:none}.sources .main{min-height:0}.source-list{max-height:none;overflow:visible}.source-list p{font-size:16px}.source-list .source-status{font-size:13px}.scope-note{font-size:16px;padding:18px}.scope-note p{font-size:16px}.scope-note b{font-size:18px}.dialog-body{font-size:17px;padding:21px}.dialog-top{padding:18px 21px}.dialog-top h2{font-size:22px}.overview .world{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:20px 16px}.overview .frame{display:block;width:100%;height:140px;min-height:0;border-radius:8px;box-shadow:none}.overview .frame.active{outline:2px solid var(--green)}.overview .slide{display:none}.overview .map-caption{padding:16px;gap:8px}.overview .map-caption span{font-size:10px}.overview .map-caption strong{font-size:20px;letter-spacing:-.02em}.overview .map-caption small{font-size:11px}.map-path{display:none}.overview-label{display:none}}
+@media print{@page{size:A4 landscape;margin:10mm}body{overflow:visible;background:white}.topbar,.bottom,.map-hit,.map-caption,.overview-label,dialog,.toast{display:none!important}.stage{position:static;overflow:visible}.world{position:static;width:auto;height:auto;transform:none!important}.map-path{display:none}.frame{display:block!important;position:static!important;width:100%;height:auto;min-height:180mm;margin:0;box-shadow:none;border-radius:0;opacity:1;break-after:page;background:white!important;color:#122c27!important;overflow:visible}.frame:last-child{break-after:auto}.slide{height:auto;min-height:180mm;padding:15px}.slide>*{visibility:visible!important}h1{font-size:44px}h2,.closing h2{font-size:38px}.main{font-size:18px;padding:22px 0;gap:25px}.intro{font-size:20px}.cover .subtitle{color:#294b35;font-size:20px}.cover .author,.cover-foot .tiny{color:#294b35}.cover-art{display:none}.cover .main{grid-template-columns:1fr}.citation,.dark .citation{color:#526b53;border-color:#b5c5b0;font-size:12px}.dark .accent{color:#456d39}.tag{border-color:#9db197!important;color:#294b35}.tool,.start-btn,.solid-btn,.matrix-toggle{display:none}.reveal{opacity:1;transform:none}.bar>i{transform:none}.slide-notes-print{display:block;font-size:13px;line-height:1.4;margin:15px 0;color:#3e563e}.source-list{overflow:visible;max-height:none}.source-list p{font-size:14px}.source-list .source-status{font-size:12px}.metric p{font-size:15px}.metric small{font-size:12px}.metric .metric-target{font-size:28px}.metric h3{font-size:21px}.metric:after{display:none}.concept{font-size:16px}.concept b{font-size:19px}.scope-note,.scope-note p{font-size:15px}}
+</style>
+<style>
+@media screen and (min-width:701px){
+ .main{padding:20px 0 10px}
+ .frame[data-index="4"] .intro{font-size:24px}
+ .frame[data-index="4"] .tab-output{min-height:0}
+ .frame[data-index="4"] .tab-output p{font-size:21px!important}
+ .frame[data-index="4"] .tab-row{margin-top:18px!important;margin-bottom:15px}
+ .frame[data-index="5"] .concept{padding:17px 19px;font-size:20px;line-height:1.35}
+ .frame[data-index="5"] .concept b{font-size:22px;margin-bottom:8px}
+ .frame[data-index="5"] .concept small{margin-top:9px}
+ .frame[data-index="6"] .scenario-detail p{font-size:22px;line-height:1.35}
+ .frame[data-index="6"] .scenario-detail h3{font-size:31px;margin-bottom:16px}
+ .metric{padding:17px 21px}.metric .metric-target{font-size:36px;margin-bottom:7px}
+ .metric h3{font-size:24px;margin-bottom:7px}.metric p{font-size:17px;line-height:1.35;margin-bottom:7px}.metric small{font-size:15px}
+ .closing h2{font-size:62px}.closing .promise{font-size:25px;line-height:1.4}
+ .closing-art{padding:15px}.closing-art svg{height:210px}.closing .intro{font-size:25px;line-height:1.4}
+ .frame[data-index="8"] .roadmap{margin:8px 0}
+ .frame[data-index="9"] .main.wide{gap:10px!important}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+ <div class="brand"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>SENA <b>2030</b><small>PENSAMIENTO ESTRATÉGICO Y PROSPECTIVA</small></span></div>
+ <nav class="tools" aria-label="Herramientas de presentación">
+  <button class="tool" id="mapBtn" aria-pressed="false" title="Vista general (M)">Mapa</button>
+  <button class="tool" id="notesBtn" title="Guion de la diapositiva (G)">Guion</button>
+  <button class="tool" id="sourcesBtn" title="Referencias y alcance de las lecturas">Fuentes</button>
+  <button class="tool motion" id="motionBtn" aria-pressed="false" title="Reducir animaciones">Movimiento</button>
+  <button class="tool fullscreen icon" id="fullBtn" title="Pantalla completa (F)" aria-label="Pantalla completa">⛶</button>
+ </nav>
+</header>
+<main class="stage" id="stage" aria-label="Presentación interactiva">
+ <div class="overview-label">Elige una idea para acercarte</div>
+ <div class="world" id="world">
+ <svg class="map-path" viewBox="0 0 5460 3480" aria-hidden="true"><path d="M600 360H4860V1280H600V2200H4860V3120H3440" fill="none" stroke="#b3e693" stroke-width="5" stroke-dasharray="16 18"/></svg>
+
+ <section class="frame cover dark active" data-title="El futuro se decide hoy" data-chapter="La pregunta" aria-label="Portada">
+  <div class="slide">
+   <div class="eyebrow">Una decisión estratégica para el SENA</div>
+   <div class="main">
+    <div>
+     <h1>El futuro se decide<br><em class="accent">en el territorio.</em></h1>
+     <p class="subtitle">Sostenibilidad y competitividad<br>con las personas en el centro.</p>
+     <div class="author"><strong>Iván Leonardo Sosa Munévar</strong><strong>Natalia Andrea López Hernández</strong></div>
+    </div>
+    <div class="cover-art" aria-hidden="true">
+     <svg viewBox="0 0 460 460">
+      <circle class="circle" cx="230" cy="230" r="210"/><circle class="circle" cx="230" cy="230" r="183"/><circle class="circle" cx="230" cy="230" r="155"/><circle class="circle orbit" cx="230" cy="230" r="225"/>
+      <path class="route-line" d="M62 330C65 160 210 320 230 66S370 160 399 328"/>
+      <circle cx="230" cy="230" r="117" fill="#1a3b2e" stroke="#729a61"/>
+      <text class="art-kicker" x="230" y="190" text-anchor="middle">HORIZONTE</text><text class="year" x="226" y="271" text-anchor="middle">2030</text>
+      <circle cx="230" cy="66" r="7" fill="#c0ee88"/><circle cx="62" cy="330" r="7" fill="#c0ee88"/><circle cx="399" cy="328" r="7" fill="#c0ee88"/>
+      <text class="art-label" x="230" y="43" text-anchor="middle">Anticipar</text><text class="art-label" x="63" y="367" text-anchor="middle">Aprender</text><text class="art-label" x="395" y="367" text-anchor="middle">Conectar</text>
+     </svg>
+    </div>
+   </div>
+   <div class="cover-foot"><button class="start-btn" data-go="1">Explorar la propuesta</button><span class="tiny">Maestría en Dirección y Gestión de Proyectos · USTA<br>Ejercicio académico · Noviembre de 2026</span></div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Nuestra decisión" data-chapter="La apuesta">
+  <div class="slide">
+   <div class="eyebrow">Si fuéramos los estrategas de la organización</div>
+   <h2>Formar para el futuro.<br><em>Con los pies en el territorio.</em></h2>
+   <div class="main">
+    <div class="stack">
+     <p class="decision-word reveal">Priorizaríamos, entre 2027 y 2030, una <strong>red de formación territorial adaptativa</strong> que conecte saberes campesinos, capacidades digitales y proyectos productivos sostenibles.</p>
+     <div class="statement reveal"><strong>Empezar con un piloto en Cundinamarca.</strong><div class="tiny muted">Acordar necesidades con las comunidades, preparar a los instructores y ampliar solo cuando exista evidencia de utilidad.</div></div>
+     <p class="tiny muted reveal">La apuesta profundiza líneas ya presentes en el SENA. Su aporte está en articularlas y evaluar sus resultados antes de extenderlas.</p>
+    </div>
+    <div>
+     <div class="disc" role="img" aria-label="Personas y territorio conectan anticipación, formación y aplicación productiva">
+      <div class="disc-ring"></div><div class="disc-center">Personas<br>y territorio</div><span class="disc-label top">Anticipar</span><span class="disc-label left">Formar</span><span class="disc-label right">Aplicar</span>
+     </div>
+     <p class="tiny muted" style="text-align:center">Una decisión de dirección que orienta recursos,<br>alianzas y aprendizaje institucional.</p>
+    </div>
+   </div>
+   <div class="citation">Propuesta de los autores. Punto de partida: <a href="https://historico.sena.edu.co/es-co/Documents/202512-Plan-Estrategico-Institucional-2023-2026-v3.pdf" target="_blank" rel="noopener">SENA, PEI 2023–2026, versión 3</a>, y Soto Delgado, cap. 5, §5.3.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Leer el entorno" data-chapter="El contexto">
+  <div class="slide">
+   <div class="eyebrow">El punto de partida</div><h2>El contexto cambia.<br><em>La misión debe seguir siendo útil.</em></h2>
+   <div class="main">
+    <div>
+     <div class="principle reveal"><span class="pill-number">●</span><div><b>Una orientación existente</b><p class="tiny muted">El PEI incorpora prospectiva y reconoce la transformación productiva del campesinado y las economías verdes.</p></div></div>
+     <div class="principle reveal"><span class="pill-number">●</span><div><b>Una base territorial</b><p class="tiny muted">CampeSENA contempla formación en la vereda, saberes previos, flexibilidad y alianzas.</p></div></div>
+     <div class="principle reveal"><span class="pill-number">●</span><div><b>Una pregunta por resolver</b><p class="tiny muted">¿Qué capacidades necesitan las personas para aprovechar los cambios sin quedar excluidas?</p></div></div>
+    </div>
+    <div class="visual-panel">
+     <div class="tab-row" role="tablist" aria-label="Retos que debemos contrastar en el diagnóstico" data-tabs="context">
+      <button class="tab-btn" role="tab" aria-selected="true" data-key="digital">Tecnología</button><button class="tab-btn" role="tab" aria-selected="false" data-key="access">Acceso</button><button class="tab-btn" role="tab" aria-selected="false" data-key="resources">Recursos</button>
+     </div>
+     <div class="tab-output" id="contextOutput" role="tabpanel"><h3>Aprender a usar los cambios.</h3><p>Explorar qué herramientas digitales resuelven problemas productivos concretos y qué apoyos requieren quienes van a utilizarlas.</p></div>
+     <p class="tiny muted" style="margin-top:22px">Retos de la propuesta: requieren diagnóstico local; no son resultados medidos del SENA.</p>
+    </div>
+   </div>
+   <div class="citation">Hechos institucionales: SENA, <a href="https://historico.sena.edu.co/es-co/Documents/202512-Plan-Estrategico-Institucional-2023-2026-v3.pdf" target="_blank" rel="noopener">PEI, introducción</a>; <a href="https://normograma.sena.edu.co/compilacion/docs/circular_sena_0014_2026.htm" target="_blank" rel="noopener">Circular 14 de 2026, §1.1</a>. Lectura de los retos: elaboración propia.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Elegir una alternativa" data-chapter="La decisión">
+  <div class="slide">
+   <div class="eyebrow">Elegir también implica priorizar</div><h2>¿Dónde pondríamos<br><em>el esfuerzo estratégico?</em></h2>
+   <div class="main">
+    <div>
+     <p class="intro">Ampliar cupos, digitalizar toda la oferta o conectar formación y territorio conducen a decisiones distintas.</p>
+     <p>Elegimos la tercera: combina pertinencia e inclusión y permite aprender mediante un piloto.</p>
+     <div class="highlight-line">La recomendación es provisional. Debe contrastarse con costos, capacidades y voces del territorio.</div>
+    </div>
+    <div>
+     <div class="bar-group"><div class="bar-label"><span>Ampliar la oferta vigente</span><strong>2,80 / 5</strong></div><div class="bar" style="--value:56%"><i></i></div></div>
+     <div class="bar-group"><div class="bar-label"><span>Digitalizar toda la oferta</span><strong>2,95 / 5</strong></div><div class="bar" style="--value:59%"><i></i></div></div>
+     <div class="bar-group"><div class="bar-label"><span><b>Red territorial adaptativa</b></span><strong>4,50 / 5</strong></div><div class="bar recommended" style="--value:90%"><i></i></div></div>
+     <button class="matrix-toggle" id="matrixBtn">Explorar los criterios y el cálculo</button>
+     <p class="tiny muted" style="margin-top:19px">Valoración ilustrativa de los autores, escala de 1 a 5. Los puntajes no provienen de una evaluación institucional.</p>
+    </div>
+   </div>
+   <div class="citation">Comparación de elaboración propia. Criterio conceptual: diferenciar la propuesta de valor y elegir actividades coherentes; <a href="https://www.isc.hbs.edu/strategy/Pages/default.aspx" target="_blank" rel="noopener">Institute for Strategy & Competitiveness, HBS</a>.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Crear valor público" data-chapter="La sostenibilidad">
+  <div class="slide">
+   <div class="eyebrow">¿Para qué sostener la organización?</div><h2>El valor público<br><em>es nuestra medida de éxito.</em></h2>
+   <div class="main">
+    <div>
+     <p class="intro">En el SENA, la competitividad se expresaría en la capacidad de ofrecer formación pertinente, accesible y confiable.</p>
+     <p class="tiny muted">Nuestra lectura: sostener la misión pública, cuidar los recursos y ampliar oportunidades.</p>
+     <div class="tab-row" role="tablist" aria-label="Dimensiones de sostenibilidad" data-tabs="value" style="margin-top:25px">
+      <button class="tab-btn" role="tab" aria-selected="true" data-key="social">Social</button><button class="tab-btn" role="tab" aria-selected="false" data-key="institutional">Institucional</button><button class="tab-btn" role="tab" aria-selected="false" data-key="economic">Recursos</button><button class="tab-btn" role="tab" aria-selected="false" data-key="environment">Ambiental</button>
+     </div>
+     <div id="valueOutput" class="tab-output" role="tabpanel"><h3 style="font-size:28px">Acceder y poder continuar.</h3><p style="font-size:22px">Ajustar horarios, apoyos y formas de aprender para que las condiciones del territorio no impidan terminar la formación.</p></div>
+    </div>
+    <div class="value-circle" role="img" aria-label="Cuatro dimensiones conectadas: social, institucional, recursos y ambiental">
+     <svg viewBox="0 0 360 360">
+      <path class="value-piece selected" data-value="social" d="M180 180L180 8A172 172 0 0 1 352 180Z"/><text class="value-label" x="270" y="95" text-anchor="middle">Social</text>
+      <path class="value-piece" data-value="institutional" d="M180 180L352 180A172 172 0 0 1 180 352Z"/><text class="value-label" x="269" y="275" text-anchor="middle">Institución</text>
+      <path class="value-piece" data-value="economic" d="M180 180L180 352A172 172 0 0 1 8 180Z"/><text class="value-label" x="84" y="275" text-anchor="middle">Recursos</text>
+      <path class="value-piece" data-value="environment" d="M180 180L8 180A172 172 0 0 1 180 8Z"/><text class="value-label" x="91" y="95" text-anchor="middle">Ambiente</text>
+     </svg><div class="value-core">Valor<br>público</div>
+    </div>
+   </div>
+   <div class="citation">Aplicación académica al SENA. Soto Delgado, cap. 5, §§5.3 y 5.5; SENA, PEI 2023–2026. La oferta gratuita y la formación integral son condiciones de la propuesta.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="De las lecturas a la acción" data-chapter="El fundamento">
+  <div class="slide">
+   <div class="eyebrow">Capítulo 5 · El estratega</div><h2>El estratega <em>hace que ocurra.</em></h2>
+   <div class="main wide">
+    <div class="concept-list">
+     <div class="concept reveal"><b>Dar dirección</b>Definir a quién servimos, qué valor aportamos y qué decisiones respaldan ese propósito.<small>Soto, §5.3; Montgomery, caps. 4–5 (vistas previas).</small></div>
+     <div class="concept reveal"><b>Mirar el sistema</b>Conectar capacidades técnicas, relaciones humanas y soporte administrativo.<small>Soto, §5.5. Aplicación: una ruta compartida entre áreas.</small></div>
+     <div class="concept reveal"><b>Anticipar y aprender</b>Explorar futuros plausibles y revisar la estrategia cuando cambien las condiciones.<small>Soto, §§5.6–5.7; Gallardo, material editorial del cap. 12.</small></div>
+     <div class="concept reveal"><b>Liderar con coherencia</b>Escuchar, asumir responsabilidades y cumplir los acuerdos con el equipo y la comunidad.<small>Soto, §§5.4 y 5.8; Kofman, retomado por Soto.</small></div>
+    </div>
+    <div class="highlight-line">En nuestra propuesta, el estratega coordina el rumbo y crea condiciones para que el equipo pueda ejecutarlo.</div>
+   </div>
+   <div class="citation">Fuente principal: Soto Delgado (s. f.), <em>Pensamiento estratégico y prospectiva</em>, cap. 5. Urarte (2022) aporta la adaptación del rumbo ante la incertidumbre. Detalle del acceso a cada lectura en “Fuentes”.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Explorar futuros posibles" data-chapter="La prospectiva">
+  <div class="slide">
+   <div class="eyebrow">Prospectiva · Dos incertidumbres, cuatro escenarios</div><h2>Explorar <em>futuros posibles.</em></h2>
+   <div class="main scenario-layout">
+    <div>
+     <div class="scenario-board">
+      <div class="axis-y">Recursos y equipos: continuidad baja / alta</div>
+      <div class="scenario-grid" role="tablist" aria-label="Escenarios hipotéticos 2030" data-tabs="scenario">
+       <button class="scenario" role="tab" aria-selected="false" data-key="local"><strong>Territorio acompañado</strong><small>Continuidad alta<br>Conectividad limitada</small></button>
+       <button class="scenario" role="tab" aria-selected="true" data-key="connected"><strong>Territorio conectado</strong><small>Continuidad alta<br>Conectividad suficiente</small></button>
+       <button class="scenario" role="tab" aria-selected="false" data-key="pressure"><strong>Doble presión</strong><small>Continuidad baja<br>Conectividad limitada</small></button>
+       <button class="scenario" role="tab" aria-selected="false" data-key="fragile"><strong>Conexión frágil</strong><small>Continuidad baja<br>Conectividad suficiente</small></button>
+      </div>
+      <div class="axis-x">Conectividad efectiva: limitada / suficiente</div>
+     </div>
+     <p class="tiny muted" style="margin-top:16px">Escenarios elaborados para discutir decisiones. No son pronósticos ni tienen probabilidades asignadas.</p>
+    </div>
+    <div class="scenario-detail" id="scenarioOutput" role="tabpanel"></div>
+   </div>
+   <div class="citation">Adaptación del ejercicio de dos variables de <a href="https://libroweb.alfaomega.com.mx/book/385/free/data/Presentaciones/pdf/12ConceptosDePlaneacionProspectiva.pdf" target="_blank" rel="noopener">Gallardo, cap. 12, material de apoyo de Alfaomega</a>, diapositivas 16–17. Urarte (2022), <em>Estrategia, prospectiva y futuro</em>.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Conectar el sistema" data-chapter="La articulación">
+  <div class="slide">
+   <div class="eyebrow">Una estrategia que atraviesa la organización</div><h2>La formación funciona<br><em>cuando las piezas se conectan.</em></h2>
+   <div class="main" style="grid-template-columns:1.12fr .88fr">
+    <div>
+     <svg class="system-svg" viewBox="0 0 550 290" role="img" aria-label="Ciclo de retroalimentación entre comunidad, diseño de formación, aplicación productiva y aprendizaje institucional">
+      <path class="flow-path" d="M120 73C120 10 430 10 430 73M430 73V214M430 214C430 280 120 280 120 214M120 214V73"/>
+      <rect class="node" x="35" y="38" width="170" height="68" rx="12"/><text class="node-label" x="120" y="68">Comunidad</text><text class="node-label" x="120" y="92" style="font-size:16px">Necesidades y saberes</text>
+      <rect class="node" x="345" y="38" width="170" height="68" rx="12"/><text class="node-label" x="430" y="68">Formación</text><text class="node-label" x="430" y="92" style="font-size:16px">Diseño e instructores</text>
+      <rect class="node" x="345" y="183" width="170" height="68" rx="12"/><text class="node-label" x="430" y="212">Aplicación</text><text class="node-label" x="430" y="236" style="font-size:16px">Proyectos productivos</text>
+      <rect class="node" x="35" y="183" width="170" height="68" rx="12"/><text class="node-label" x="120" y="212">Evidencia</text><text class="node-label" x="120" y="236" style="font-size:16px">Aprender y ajustar</text>
+      <path d="M205 73L275 142L345 73M205 215L275 142L345 215" fill="none" stroke="#b0c3a6" stroke-width="1.5"/>
+      <circle class="node-primary" cx="275" cy="142" r="47"/><text class="node-label white" x="275" y="139" style="font-size:18px">Rumbo</text><text class="node-label white" x="275" y="160" style="font-size:18px">común</text>
+     </svg>
+     <p class="tiny muted" style="text-align:center">La evidencia regresa al diseño y a la decisión.</p>
+    </div>
+    <div>
+     <p style="font-size:23px">La propuesta organiza el trabajo en tres dimensiones. Ninguna avanza sola.</p>
+     <div class="system-row" role="tablist" aria-label="Subsistemas organizacionales" data-tabs="system">
+      <button class="choice selected" role="tab" aria-selected="true" data-key="people">Personas</button><button class="choice" role="tab" aria-selected="false" data-key="technical">Técnica</button><button class="choice" role="tab" aria-selected="false" data-key="support">Gestión</button>
+     </div>
+     <div class="system-output" id="systemOutput" role="tabpanel" style="margin-top:15px"></div>
+    </div>
+   </div>
+   <div class="citation">Modelo propuesto a partir del enfoque sistémico de Soto Delgado, cap. 5, §5.5: subsistemas psicosocial, técnico y administrativo. El gráfico representa una propuesta de trabajo, no el organigrama oficial.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Poner la decisión en marcha" data-chapter="La ejecución">
+  <div class="slide">
+   <div class="eyebrow">Ruta propuesta · 2027–2030</div><h2>Comenzar pequeño.<br><em>Aprender antes de ampliar.</em></h2>
+   <div class="main wide">
+    <div class="roadmap" role="tablist" aria-label="Fases de implementación" data-tabs="phase">
+     <button class="phase-btn" role="tab" aria-selected="true" data-key="diagnose"><span class="phase-mark">2027</span><strong>Escuchar y diseñar</strong><small>Primeros 90 días</small></button>
+     <button class="phase-btn" role="tab" aria-selected="false" data-key="pilot"><span class="phase-mark">2027</span><strong>Probar en territorio</strong><small>Meses 4 a 12</small></button>
+     <button class="phase-btn" role="tab" aria-selected="false" data-key="learn"><span class="phase-mark">28–29</span><strong>Ajustar con evidencia</strong><small>2028–2029</small></button>
+     <button class="phase-btn" role="tab" aria-selected="false" data-key="scale"><span class="phase-mark">2030</span><strong>Ampliar con criterio</strong><small>Según viabilidad</small></button>
+    </div>
+    <div class="phase-detail" id="phaseOutput" role="tabpanel"></div>
+    <p class="tiny muted">Recursos a estimar: dedicación de instructores, desplazamientos, materiales, soporte y seguimiento. La expansión depende de disponibilidad presupuestal y resultados verificables.</p>
+   </div>
+   <div class="citation">Ruta de elaboración propia. Planeación revisaría viabilidad; Formación y el centro piloto coordinarían la ejecución, con participación comunitaria. Responsabilidades sugeridas, sujetas a las competencias institucionales.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Medir lo que cambia" data-chapter="La evidencia">
+  <div class="slide">
+   <div class="eyebrow">¿Cómo sabremos si la decisión funciona?</div><h2>Medir para <em>decidir mejor.</em></h2>
+   <div class="main wide" style="gap:15px">
+    <div class="metric-grid">
+     <button class="metric" data-metric="completion"><span class="metric-target">≥ 80 %</span><h3>Finalización</h3><p>Personas certificadas sobre matriculadas<br>de la misma cohorte piloto.</p><small>Meta inicial propuesta · Revisión por cohorte</small></button>
+     <button class="metric" data-metric="application"><span class="metric-target">≥ 60 %</span><h3>Aplicación de lo aprendido</h3><p>Egresados que evidencian uso<br>en un proyecto o actividad productiva.</p><small>Meta propuesta · Seguimiento a seis meses</small></button>
+     <button class="metric" data-metric="gap"><span class="metric-target">≤ 5 pp</span><h3>Brecha de finalización</h3><p>Diferencia absoluta entre cohortes<br>rurales y urbanas comparables.</p><small>Meta propuesta · Revisar causas y apoyos</small></button>
+     <button class="metric" data-metric="cost"><span class="metric-target">Costo / logro</span><h3>Uso responsable de recursos</h3><p>Costo total atribuible al piloto<br>por persona certificada.</p><small>Umbral por definir con la línea base</small></button>
+    </div>
+    <p class="tiny muted">Son metas académicas, pendientes de línea base y validación. No corresponden a resultados actuales del SENA. Selecciona una ficha para ver su fórmula, fuente y límites.</p>
+   </div>
+   <div class="citation">Indicadores y metas propuestos por los autores. Su lectura conjunta evita que la reducción del costo comprometa la calidad o la inclusión. Soto Delgado, cap. 5, §§5.3 y 5.7: ejecución y revisión de decisiones.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Liderar con las personas" data-chapter="El estratega">
+  <div class="slide">
+   <div class="eyebrow">Liderazgo consciente</div><h2>El equipo necesita un rumbo.<br><em>También necesita ser escuchado.</em></h2>
+   <div class="main">
+    <div>
+     <div class="leader-grid" role="tablist" aria-label="Competencias del estratega" data-tabs="leader">
+      <button class="leader-btn" role="tab" aria-selected="true" data-key="responsibility">Responsabilidad</button><button class="leader-btn" role="tab" aria-selected="false" data-key="integrity">Integridad</button><button class="leader-btn" role="tab" aria-selected="false" data-key="humility">Humildad</button><button class="leader-btn" role="tab" aria-selected="false" data-key="communication">Comunicación</button><button class="leader-btn" role="tab" aria-selected="false" data-key="negotiation">Negociación</button><button class="leader-btn" role="tab" aria-selected="false" data-key="coordination">Coordinación</button><button class="leader-btn" role="tab" aria-selected="false" data-key="emotion">Maestría emocional</button>
+     </div>
+     <p class="tiny muted" style="margin-top:22px">El capítulo retoma estas competencias de Kofman y las vincula con el papel del estratega.</p>
+    </div>
+    <div class="leader-detail" id="leaderOutput" role="tabpanel"></div>
+   </div>
+   <div class="citation">Soto Delgado, cap. 5, §5.4, a partir de Kofman (2012), y §5.8, liderazgo. Aplicaciones al caso SENA: elaboración propia.</div>
+  </div>
+ </section>
+
+ <section class="frame" data-title="Cuidar la viabilidad" data-chapter="Los riesgos">
+  <div class="slide">
+   <div class="eyebrow">La sostenibilidad también se protege</div><h2>La estrategia debe resistir<br><em>lo que pueda salir mal.</em></h2>
+   <div class="main">
+    <div class="risk-list">
+     <details open><summary>Exclusión por conectividad</summary><p>Combinar encuentros presenciales, materiales sin conexión y acompañamiento. Revisar la continuidad de los participantes por territorio.</p></details>
+     <details><summary>Discontinuidad de recursos o equipos</summary><p>Documentar acuerdos, costos y aprendizajes. Asegurar responsables y soporte para completar cada cohorte antes de abrir otra.</p></details>
+     <details><summary>Oferta que no encuentra aplicación</summary><p>Validar problemas con aprendices, asociaciones y empleadores. Rediseñar la ruta cuando no se evidencie uso de lo aprendido.</p></details>
+     <details><summary>Metas que ocultan las dificultades</summary><p>Publicar fórmulas y límites del seguimiento, proteger los datos personales y escuchar a quienes abandonan la formación.</p></details>
+    </div>
+    <div class="risk-visual">
+     <span class="tag">Regla propuesta para decidir</span><p class="big" style="margin-top:24px">Ampliar si hay<br><em>utilidad, inclusión<br>y capacidad de sostenerla.</em></p>
+     <div class="semaphore" aria-hidden="true"><i></i><i></i><i></i></div>
+     <p class="tiny muted"><b>Avanzar:</b> evidencia suficiente y recursos.<br><b>Ajustar:</b> brechas corregibles.<br><b>Detener la expansión:</b> calidad o continuidad comprometidas.</p>
+    </div>
+   </div>
+   <div class="citation">Riesgos y controles hipotéticos de elaboración propia. Fundamento: Soto Delgado, §§5.6–5.8, anticipación, decisión y liderazgo; Urarte (2022), adaptación y alertas.</div>
+  </div>
+ </section>
+
+ <section class="frame dark closing" data-title="La respuesta estratégica" data-chapter="Nuestra posición">
+  <div class="slide">
+   <div class="eyebrow">La decisión que defenderíamos</div>
+   <div class="main">
+    <div><h2>Que el SENA<br>llegue al futuro<br><em class="accent">con su gente.</em></h2><p class="promise" style="margin-top:30px">Priorizar formación territorial adaptativa, respaldarla con liderazgo consciente y ampliarla cuando los resultados lo justifiquen.</p></div>
+    <div>
+     <div class="closing-art" aria-hidden="true"><svg viewBox="0 0 430 290"><path d="M25 260C80 250 70 160 120 165S185 210 205 140S280 80 305 99S350 65 400 25" fill="none" stroke="#537d50" stroke-width="2"/><path class="route-line" d="M25 260C80 250 70 160 120 165S185 210 205 140S280 80 305 99S350 65 400 25" fill="none" stroke="#c0ee88" stroke-width="3" stroke-dasharray="700" stroke-dashoffset="700"/><circle cx="25" cy="260" r="7" fill="#c0ee88"/><circle cx="205" cy="140" r="7" fill="#c0ee88"/><circle cx="400" cy="25" r="8" fill="#c0ee88"/><text x="25" y="230" fill="#a6c6a2" font-size="19">Decidir</text><text x="205" y="182" fill="#a6c6a2" font-size="19">Aprender</text><text x="321" y="58" fill="#c0ee88" font-size="19">Sostener</text></svg></div>
+     <p class="intro" style="color:#bfd3b8">A nuestro juicio, su fortaleza a largo plazo estaría en convertir el aprendizaje en oportunidades reales, cuidando la misión pública que le da sentido.</p>
+     <button class="start-btn" data-go="13" style="margin-top:22px">Consultar las fuentes</button>
+    </div>
+   </div>
+   <div class="citation">Iván Leonardo Sosa Munévar · Natalia Andrea López Hernández<br>Propuesta académica de decisión estratégica. Su adopción requeriría diagnóstico, concertación y aprobación institucional.</div>
+  </div>
+ </section>
+
+ <section class="frame sources" data-title="Fuentes y alcance" data-chapter="El respaldo">
+  <div class="slide">
+   <div class="eyebrow">Referencias y trazabilidad</div><h2>Las ideas tienen<br><em>un punto de partida.</em></h2>
+   <div class="main">
+    <div class="source-list" tabindex="0" aria-label="Fuentes consultadas">
+     <h3>Base de la argumentación</h3>
+     <p>Soto Delgado, R. S. (s. f.). <em>Pensamiento estratégico y prospectiva</em> (cap. 5, “El estratega”). Material de la asignatura, USTA.<span class="source-status">Lectura completa del archivo suministrado, 8 páginas digitales. El extracto no muestra fecha.</span></p>
+     <p>SENA. (2025). <a href="https://historico.sena.edu.co/es-co/Documents/202512-Plan-Estrategico-Institucional-2023-2026-v3.pdf" target="_blank" rel="noopener"><em>Plan Estratégico Institucional 2023–2026</em> (versión 3)</a>.</p>
+     <p>SENA. (2026, 16 de enero). <a href="https://normograma.sena.edu.co/compilacion/docs/circular_sena_0014_2026.htm" target="_blank" rel="noopener"><em>Circular 14 de 2026</em></a>. Lineamientos de CampeSENA y Full Popular.</p>
+     <p>Gallardo Hernández, J. R. (2012). <em>Administración estratégica: De la visión a la ejecución</em>. Alfaomega. <a href="https://libroweb.alfaomega.com.mx/book/385/free/data/Presentaciones/pdf/12ConceptosDePlaneacionProspectiva.pdf" target="_blank" rel="noopener">Material editorial de apoyo del capítulo 12: “La prospectiva”</a>.<span class="source-status">Se consultaron las diapositivas oficiales de apoyo, no el capítulo íntegro.</span></p>
+     <p>Montgomery, C. A. (2012). <em>The strategist: Be the leader your business needs</em>. HarperBusiness. Caps. <a href="https://www.oreilly.com/library/view/the-strategist/9780062071002/ch04.xhtml" target="_blank" rel="noopener">4</a> y <a href="https://www.oreilly.com/library/view/the-strategist/9780062071002/ch05.xhtml" target="_blank" rel="noopener">5</a>.<span class="source-status">Vistas previas editoriales: propósito y materialización. Desarrollo adicional a través de Soto.</span></p>
+     <p>Urarte, M. (2022, 10 de octubre). <a href="https://www.ub.edu/mastergrupos/estrategia-prospectiva-y-futuro-marcos-urarte/" target="_blank" rel="noopener"><em>Estrategia, prospectiva y futuro</em></a>. Máster Grupos, Universitat de Barcelona.</p>
+     <p>Urarte, M. (2015). <a href="https://www.harvard-deusto.com/estrategia-innovacion-y-competitividad" target="_blank" rel="noopener">Estrategia, innovación y competitividad</a>. <em>Harvard Deusto Business Review</em>, (243).<span class="source-status">Se utilizó la sección pública disponible del artículo.</span></p>
+     <p>Kofman, F. (2012). <em>La empresa consciente: Cómo construir valor a través de valores</em>. Referencia de la actividad.<span class="source-status">Competencias consultadas en Soto (cita secundaria). Complemento: <a href="https://us.macmillan.com/books/9781604070323/consciousbusiness/" target="_blank" rel="noopener">descripción editorial de la obra en inglés</a>.</span></p>
+     <p>Institute for Strategy & Competitiveness. (s. f.). <a href="https://www.isc.hbs.edu/strategy/Pages/default.aspx" target="_blank" rel="noopener"><em>Strategy</em></a>. Harvard Business School.</p>
+    </div>
+    <div class="source-list" tabindex="0" aria-label="Alcance y recursos propuestos en la actividad">
+     <div class="scope-note"><b>Qué es evidencia y qué es propuesta</b><p>El contexto institucional proviene de documentos oficiales. La red territorial, los escenarios, la matriz comparativa, la ruta y las metas son una elaboración académica de los autores.</p></div>
+     <h3>Recursos de la actividad con acceso limitado</h3>
+     <p>Cámara Argentina de Comercio y Servicios. (s. f.). <a href="https://www.youtube.com/watch?v=muTtMPGeBtk" target="_blank" rel="noopener"><em>Estrategia, competitividad e innovación: Marcos Urarte en la CAC</em> [Video]</a>.<span class="source-status">Se verificó el recurso. No se obtuvo transcripción; no se atribuyen al video frases o minutos sin verificar. Se complementó con textos de Urarte.</span></p>
+     <p>Cejas, O. (2021). <em>Dirección estratégica: Desarrollo de estrategias en ambientes de turbulencia</em>. Nobuko.<span class="source-status">Enlace CRAI con acceso institucional; no se presentan citas directas de esta obra.</span></p>
+     <p>Porter, M. (1982). <em>Estrategia competitiva</em>. Referencia de la actividad.<span class="source-status">El enlace suministrado no permitió lectura íntegra. Se consultó el instituto de estrategia de HBS como apoyo.</span></p>
+     <p>Arellano, D. (2013). <a href="https://www.digitaliapublishing.com/a/43253/gestion-estrategica-para-el-sector-publico" target="_blank" rel="noopener"><em>Gestión estratégica para el sector público: Del pensamiento estratégico al cambio organizacional</em></a>. Fondo de Cultura Económica.<span class="source-status">El catálogo identifica a David Arellano, no a Luis Arce. Se verificó la ficha, sin acceso al libro completo.</span></p>
+     <div class="scope-note"><b>Sobre esta presentación</b><p>Las seis muestras aportadas orientaron el ritmo y el tono de la escritura. Los gráficos son propios. El contenido principal y las interacciones funcionan sin conexión; los enlaces a fuentes requieren internet.</p></div>
+     <div class="source-date">Consulta de fuentes: 23 de noviembre de 2026.</div>
+    </div>
+   </div>
+  </div>
+ </section>
+ </div>
+</main>
+<footer class="bottom">
+ <div class="progress" id="progress"></div>
+ <div class="nav-meta"><b id="chapterLabel">La pregunta</b><small>Teclas de dirección para avanzar · M: mapa</small></div>
+ <nav class="route-dots" id="dots" aria-label="Ir a una diapositiva"></nav>
+ <div class="nav-actions"><button class="nav" id="prevBtn">Anterior</button><span class="counter" id="counter">1 / 14</span><button class="nav next" id="nextBtn">Siguiente</button></div>
+</footer>
+<dialog id="detailDialog" aria-labelledby="dialogTitle"><div class="dialog-top"><h2 id="dialogTitle">Guion de apoyo</h2><button class="dialog-close" id="closeDialog" aria-label="Cerrar ventana">Cerrar</button></div><div class="dialog-body" id="dialogBody"></div></dialog>
+<div class="sr-only" id="liveStatus" role="status" aria-live="polite"></div>
+<div class="toast" id="toast" role="status" hidden></div>
+<noscript><div style="position:fixed;inset:70px 0 0;background:#f4f7f3;padding:40px;z-index:20;color:#122c27">Esta presentación necesita JavaScript para navegar. Habilítalo en el navegador y vuelve a abrir el archivo.</div></noscript>
+<script>
+"use strict";
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const frames=$$('.frame'), world=$('#world'), stage=$('#stage'), dialog=$('#detailDialog');
+const positions=[[0,0],[1420,0],[2840,0],[4260,0],[4260,920],[2840,920],[1420,920],[0,920],[0,1840],[1420,1840],[2840,1840],[4260,1840],[4260,2760],[2840,2760]];
+const notes=[
+"Si fuéramos los estrategas del SENA, partiríamos de una pregunta sencilla: ¿qué debería hacer hoy la institución para seguir siendo útil en unos años? Nuestra respuesta es priorizar una formación territorial adaptativa. El horizonte 2030 permite pensar más allá de una vigencia, pero la propuesta comienza con decisiones concretas y cercanas. Esta es una construcción académica de Iván Leonardo Sosa Munévar y Natalia Andrea López Hernández; no representa una decisión oficial de la entidad.",
+"La decisión consiste en orientar un conjunto de capacidades hacia un mismo propósito: que las personas aprovechen la formación en su realidad productiva. Proponemos un piloto en Cundinamarca por la pertinencia del contexto para este ejercicio, sin suponer que ya existe un diagnóstico que justifique una inversión. La red articularía actores y recursos existentes. Antes de ampliarla, tendríamos que validar necesidades, costos y resultados. El SENA ya trabaja el enfoque territorial y campesino; nuestra propuesta se concentra en su articulación, aprendizaje y seguimiento.",
+"El contexto ofrece un punto de apoyo verificable. La introducción del PEI incorpora prospectiva y reconoce cambios asociados al campesinado y a las economías verdes. La Circular 14 de 2026 también contempla formación cercana a las comunidades, reconocimiento de saberes y alianzas. Dicho esto, mencionar una línea estratégica no prueba que en todos los lugares se ejecute igual. Los retos sobre tecnología, acceso y continuidad son preguntas que el diagnóstico debe contrastar. Evitamos presentar esas hipótesis como cifras o fallas institucionales comprobadas.",
+"Comparamos tres orientaciones de inversión del esfuerzo directivo. Ampliar la oferta vigente favorece una ejecución conocida, pero podría reproducir desajustes locales. Digitalizar toda la oferta tiene posibilidades, aunque exige condiciones de acceso que debemos verificar. La red territorial permite combinar modalidades, validar problemas y ajustar la formación. Los puntajes son nuestros juicios académicos, con pesos explícitos, y no una medición del SENA. La ventaja de la matriz está en hacer discutibles los criterios. Si los costos o la evidencia cambian, debemos volver a valorar las opciones.",
+"La sostenibilidad de una entidad pública tiene que guardar relación con su misión. Para nosotros, eso implica cuidar su capacidad de formar, el acceso de las personas, la calidad del aprendizaje y el uso de recursos. La competitividad se interpreta aquí como pertinencia y confianza frente a otras opciones formativas, manteniendo el carácter público y gratuito. Un territorio que aprende también debe poder aplicar ese aprendizaje. Por eso conectamos las dimensiones social, institucional, de recursos y ambiental. Los ejemplos de cada dimensión son decisiones propuestas, no resultados institucionales ya observados.",
+"El capítulo 5 es el eje de la presentación. Soto describe al estratega como quien integra visión, análisis, decisiones y liderazgo. En el apartado 5.3, la dirección requiere mantener vigente la estrategia y movilizar al equipo. En el 5.5 aparece la relación entre personas, técnica y administración. Los apartados 5.6 y 5.7 exigen leer el entorno y decidir bajo incertidumbre. El liderazgo consciente del 5.4 y el liderazgo colectivo del 5.8 permiten llevar esas decisiones a la práctica. Las vistas previas de Montgomery refuerzan el vínculo entre propósito y acción; no sustituyen la lectura íntegra de sus capítulos.",
+"Para explorar futuros posibles elegimos dos incertidumbres: la conectividad efectiva y la continuidad de recursos y equipos. Su cruce genera cuatro escenarios hipotéticos. Esta técnica adapta el ejercicio de dos variables del material editorial del capítulo 12 de Gallardo. No estamos afirmando que uno de ellos ocurrirá. La utilidad del ejercicio consiste en identificar qué parte de la decisión conviene sostener y qué parte debe cambiar. El propósito de inclusión permanece; las modalidades, la escala y los apoyos se ajustan. Las señales sugeridas deben medirse antes de tomar decisiones de expansión.",
+"El enfoque sistémico evita que la estrategia dependa solo del aula. La comunidad aporta problemas y saberes; los equipos de formación convierten esa información en una ruta; la aplicación productiva genera aprendizajes que deben regresar al diseño y al gobierno del piloto. Las dimensiones psicosocial, técnica y administrativa se necesitan entre sí. La representación no pretende describir la estructura formal del SENA ni crear nuevos cargos. Propone una forma de coordinar el trabajo y hacer visibles sus interdependencias, de acuerdo con las competencias institucionales.",
+"La ruta inicia en 2027 y mira hacia 2030. Los primeros 90 días se dedicarían a escuchar, identificar brechas y estimar recursos. Después se probarían rutas acotadas durante el resto del primer año. En 2028 y 2029, la prioridad sería contrastar resultados y corregir. La ampliación de 2030 depende de esa evidencia, de la calidad y del presupuesto disponible. Cada fase tiene un entregable y una decisión. Este orden ayuda a evitar que el entusiasmo por crecer comprometa la continuidad de quienes ya están en formación.",
+"No basta con contar matrículas. Necesitamos saber quién termina, qué puede aplicar y qué recursos requiere lograrlo. Los umbrales del 80 %, 60 % y cinco puntos porcentuales son metas iniciales propuestas para discusión académica. Antes de adoptarlos hay que construir una línea base y acordarlos institucionalmente. El seguimiento a seis meses exige reportar también la tasa de respuesta para evitar conclusiones sesgadas. El costo por certificado se analiza junto con calidad e inclusión, porque una ruta rural puede requerir más acompañamiento. Ninguno de estos indicadores, por sí solo, demuestra que el piloto causó una mejora en empleo o ingresos.",
+"Soto retoma de Kofman tres atributos personales y cuatro habilidades interpersonales. Los aplicamos a situaciones concretas: reconocer errores, decir qué se puede cumplir, escuchar a las comunidades y coordinar acuerdos verificables. En esta propuesta, el estratega también debe permitir que el equipo cuestione lo que no está funcionando. La humildad evita confundir una decisión directiva con una verdad definitiva. La maestría emocional ayuda a actuar con serenidad frente a dificultades. El liderazgo se evalúa por las condiciones que crea para el trabajo colectivo y por la coherencia entre lo que promete y lo que hace.",
+"Las principales amenazas de la propuesta son hipotéticas y deben validarse. La conectividad puede limitar el acceso; la continuidad de recursos y equipos puede afectar la ejecución; una ruta poco pertinente puede terminar sin aplicación. También puede ocurrir que los indicadores favorezcan una lectura incompleta. Frente a esto proponemos alternativas sin conexión, compromisos por cohorte, validación de necesidades y transparencia de resultados. La regla para ampliar es conjunta: utilidad, inclusión, calidad y recursos suficientes. Si esas condiciones fallan, el estratega debe ajustar o detener la expansión y proteger a quienes ya participan.",
+"Nuestra posición es que el SENA puede fortalecer su sostenibilidad y competitividad si prioriza una formación cercana al territorio, capaz de anticipar cambios y respaldada por liderazgo consciente. Esto empieza por reconocer lo que la institución ya hace y por conectar mejor sus capacidades. La red propuesta no promete resultados automáticos. Define una dirección, una forma de aprender y criterios para decidir. A nuestro juicio, esa combinación refleja el papel del estratega que plantea el capítulo 5: orientar la organización y movilizar a las personas para que el propósito llegue a la práctica.",
+"Las fuentes se presentan con su alcance real. Leímos completo el capítulo 5 suministrado y consultamos documentos institucionales del SENA. Para Gallardo utilizamos el material editorial oficial del capítulo 12. De Montgomery se consultaron vistas previas de los capítulos 4 y 5, complementadas con el capítulo de Soto. Las competencias de Kofman se trabajan como referencia secundaria a través de Soto. El video de la CAC no ofreció una transcripción accesible, así que no se inventaron citas ni marcas de tiempo. Los enlaces institucionales de otras obras tuvieron acceso limitado. Además, el catálogo consultado atribuye Gestión estratégica para el sector público a David Arellano; esa diferencia bibliográfica debe revisarse en la guía de la asignatura."
+];
+const data={
+context:{
+ digital:["Aprender a usar los cambios.","Explorar qué herramientas digitales resuelven problemas productivos concretos y qué apoyos requieren quienes van a utilizarlas."],
+ access:["Llegar y poder permanecer.","Contrastar barreras de horario, movilidad, conectividad y cuidado. Diseñar apoyos con quienes viven esas condiciones."],
+ resources:["Sostener lo que se inicia.","Revisar disponibilidad de instructores, materiales y soporte antes de abrir nuevas rutas. El costo incluye acompañar y hacer seguimiento."]
+},
+value:{
+ social:["Acceder y poder continuar.","Ajustar horarios, apoyos y formas de aprender para que las condiciones del territorio no impidan terminar la formación."],
+ institutional:["Conservar la capacidad de aprender.","Preparar a los instructores, documentar decisiones y compartir materiales que el equipo pueda mejorar con la experiencia."],
+ economic:["Cuidar cada recurso.","Comparar costos y resultados de rutas equivalentes. Priorizar recursos compartidos y financiar también el soporte y el seguimiento."],
+ environment:["Aplicar una mirada ambiental.","Incluir proyectos pertinentes de uso eficiente de agua, energía o materiales. Acordar qué variable se puede medir en cada caso."]
+},
+scenario:{
+ connected:["Territorio conectado","Combinar experiencias presenciales con herramientas digitales y proyectos colaborativos.","Conservar el acompañamiento y ampliar únicamente las rutas con resultados.","Conectividad usable y compromisos suficientes para completar la siguiente cohorte."],
+ local:["Territorio acompañado","Llevar materiales sin conexión, encuentros itinerantes y mediación de instructores.","Mantener el acceso y la aplicación productiva como prioridad.","Dificultades de acceso digital registradas en el diagnóstico y seguimiento."],
+ pressure:["Doble presión","Reducir la apertura de nuevas rutas y concentrar recursos en completar las cohortes activas.","Proteger la continuidad de las personas antes de expandir.","Compromisos de recursos o equipos insuficientes, junto con barreras de conectividad."],
+ fragile:["Conexión frágil","Utilizar materiales reutilizables y coordinar apoyos para evitar que el aprendizaje dependa de una sola persona.","Documentar, formar relevos y acordar soporte por cohorte.","Falta de soporte confirmado para sostener el siguiente ciclo formativo."]
+},
+system:{
+ people:"Dimensión psicosocial: comunidad, aprendices e instructores acuerdan problemas, apoyos y compromisos. Escuchar modifica el diseño.",
+ technical:"Dimensión técnica: el equipo de formación adapta contenidos, prepara prácticas y contrasta competencias con evidencia de aplicación.",
+ support:"Dimensión administrativa: planeación y soporte revisan costos, disponibilidad y seguimiento. La decisión de ampliar requiere viabilidad y competencias institucionales."
+},
+phase:{
+ diagnose:["Un diagnóstico acordado, rutas priorizadas y estimación de costo total.","Iniciar el piloto solo con necesidades y recursos validados.","Centro piloto, Formación y Planeación; consulta a aprendices y organizaciones locales."],
+ pilot:["Rutas acotadas, instructores preparados y proyectos con evidencia de aplicación.","Continuar si la calidad y la permanencia pueden sostenerse.","Equipo formativo y coordinación del centro, con seguimiento de Planeación."],
+ learn:["Seguimiento a seis meses, comparación de cohortes y rutas ajustadas.","Reformular donde los resultados o la inclusión sean insuficientes.","Formación y Planeación, con devolución de resultados a las comunidades."],
+ scale:["Un caso de ampliación con resultados, costos, riesgos y soporte confirmados.","Ampliar gradualmente cuando exista viabilidad y evidencia suficiente.","Instancias competentes del SENA, según sus atribuciones y presupuesto."]
+},
+leader:{
+ responsibility:["Asumir la decisión.","Reconocer un resultado débil, explicar sus causas y acordar una corrección. El contexto importa; también importa lo que podemos hacer.","Aplicación: registrar responsables y compromisos de mejora."],
+ integrity:["Hacer coherentes los compromisos.","Decir con claridad qué puede ofrecer el piloto y cumplirlo. Cuidar la formación gratuita, la calidad y el uso de los recursos.","Aplicación: promesas realistas y rendición de cuentas."],
+ humility:["Escuchar antes de dar por sabido.","Un plan puede verse bien desde la oficina y no funcionar en la vereda. Contrastar nuestras ideas con la experiencia de las personas.","Aplicación: validar rutas y apoyos con la comunidad."],
+ communication:["Asegurar que nos entendimos.","Explicar el rumbo con ejemplos cercanos, preguntar y comprobar que el mensaje fue comprendido por cada grupo.","Aplicación: acuerdos comprensibles y devolución de resultados."],
+ negotiation:["Construir acuerdos que se puedan cumplir.","Concertar horarios, aportes y responsabilidades reconociendo las expectativas y límites de cada parte.","Aplicación: compromisos explícitos entre centro y aliados."],
+ coordination:["Conectar esfuerzos y capacidades.","Acordar quién hace qué, para cuándo y con qué apoyo. Revisar dependencias antes de que se conviertan en bloqueos.","Aplicación: seguimiento de compromisos entre áreas."],
+ emotion:["Decidir con serenidad.","Reconocer la presión y tramitar los desacuerdos sin trasladar esa tensión al equipo o a los aprendices.","Aplicación: espacios de conversación y resolución de conflictos."]
+}
+};
+const metricData={
+ completion:{title:"Finalización",formula:"Personas certificadas ÷ personas matriculadas de la misma cohorte × 100.",target:"Meta inicial propuesta: al menos 80 %.",source:"Registros académicos de la cohorte piloto, con un corte de seguimiento definido.",owner:"Responsable sugerido: equipo académico del centro. Frecuencia: cierre de cada cohorte.",limit:"Reportar cancelaciones, retiros y población de la cohorte. Comparar rutas equivalentes; la certificación debe conservar los criterios de calidad."},
+ application:{title:"Aplicación a seis meses",formula:"Egresados que evidencian aplicación ÷ egresados con respuesta válida al seguimiento × 100.",target:"Meta inicial propuesta: al menos 60 %.",source:"Seguimiento a seis meses y evidencia acordada: producto, práctica, proyecto o registro verificable.",owner:"Responsable sugerido: equipo de seguimiento del piloto. Reportar también respuestas válidas ÷ total de egresados elegibles × 100.",limit:"La no respuesta puede sesgar el resultado. No equivale a empleo, aumento de ingresos o impacto causal atribuible al piloto."},
+ gap:{title:"Brecha territorial de finalización",formula:"Valor absoluto de (tasa rural de finalización − tasa urbana de finalización), en puntos porcentuales.",target:"Meta inicial propuesta: como máximo cinco puntos porcentuales.",source:"Cohortes comparables por programa, duración, modalidad y periodo, desagregadas por territorio.",owner:"Responsable sugerido: Planeación y equipo académico. Frecuencia: revisión semestral.",limit:"Validar tamaño y comparabilidad de los grupos. Una brecha baja puede coexistir con tasas bajas en ambos territorios; leer junto con la finalización."},
+ cost:{title:"Costo por persona certificada",formula:"Costo total atribuible al piloto ÷ número de personas certificadas de la cohorte.",target:"Umbral pendiente: definir con la línea base y el costo completo de operación.",source:"Presupuesto ejecutado, asignación documentada de costos y registros de certificación.",owner:"Responsable sugerido: Planeación y apoyo administrativo del centro. Frecuencia: cierre de cohorte.",limit:"Incluir dedicación, materiales, desplazamientos, soporte y seguimiento. Comparar cohortes equivalentes y justificar apoyos diferenciales; si no hay certificados, el cociente no se calcula."}
+};
+let current=0, overview=false, toastTimer;
+const mobile=()=>matchMedia('(max-width:700px)').matches;
+function showToast(text){$('#toast').textContent=text;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,3200)}
+function camera(){
+ if(mobile()) return;
+ const w=stage.clientWidth,h=stage.clientHeight;
+ const pad=28; let scale,cx,cy;
+ if(overview){scale=Math.min((w-64)/5460,(h-72)/3480);cx=2730;cy=1740}
+ else{scale=Math.min((w-pad*2)/1200,(h-pad*2)/720);cx=positions[current][0]+600;cy=positions[current][1]+360}
+ world.style.transform='translate('+(w/2-cx*scale)+'px,'+(h/2-cy*scale)+'px) scale('+scale+')';
+}
+function update(){
+ frames.forEach((f,i)=>{f.classList.toggle('active',i===current);f.setAttribute('aria-hidden',String(!overview&&i!==current));f.inert=!overview&&i!==current});
+ $$('.route-dot').forEach((d,i)=>{d.classList.toggle('active',i===current);d.setAttribute('aria-current',i===current?'step':'false')});
+ $('#prevBtn').disabled=current===0;$('#nextBtn').disabled=current===frames.length-1;
+ $('#counter').textContent=(current+1)+' / '+frames.length;$('#chapterLabel').textContent=overview?'Vista general':frames[current].dataset.chapter;
+ $('#progress').style.width=((current+1)/frames.length*100)+'%';
+ $('#mapBtn').setAttribute('aria-pressed',String(overview));$('#mapBtn').textContent=overview?'Volver':'Mapa';
+ $('#liveStatus').textContent=overview?'Vista general. Selecciona una diapositiva.':'Diapositiva '+(current+1)+' de '+frames.length+': '+frames[current].dataset.title;
+ camera();
+}
+function go(i,replace=false){
+ current=Math.max(0,Math.min(frames.length-1,i));overview=false;document.body.classList.remove('overview');update();stage.scrollTop=0;
+ if(replace) history.replaceState(null,'','#'+(current+1));else if(location.hash!=='#'+(current+1))history.pushState(null,'','#'+(current+1));
+}
+function setOverview(value){overview=value;document.body.classList.toggle('overview',overview);update();stage.scrollTop=0}
+function openDialog(title,html){$('#dialogTitle').textContent=title;$('#dialogBody').innerHTML=html;if(!dialog.open)dialog.showModal()}
+function selectTab(group,key,focus=false){
+ const buttons=$$('[data-tabs="'+group+'"] [role="tab"]');
+ buttons.forEach(b=>{const selected=b.dataset.key===key;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1;b.classList.toggle('selected',selected);if(selected&&focus)b.focus()});
+ if(group==='context'||group==='value'){const d=data[group][key];$('#'+group+'Output').innerHTML='<h3>'+d[0]+'</h3><p>'+d[1]+'</p>';if(group==='value')$$('.value-piece').forEach(p=>p.classList.toggle('selected',p.dataset.value===key))}
+ if(group==='scenario'){const d=data.scenario[key];$('#scenarioOutput').innerHTML='<h3>'+d[0]+'</h3><p><b>Qué adaptaríamos.</b> '+d[1]+'</p><p><b>Qué mantendríamos.</b> '+d[2]+'</p><div class="trigger"><b>Señal para revisar:</b> '+d[3]+'</div>'}
+ if(group==='system')$('#systemOutput').textContent=data.system[key];
+ if(group==='phase'){const d=data.phase[key];$('#phaseOutput').innerHTML='<div><b>Entregable</b>'+d[0]+'</div><div><b>Decisión</b>'+d[1]+'<div class="tiny muted" style="margin-top:12px">'+d[2]+'</div></div>'}
+ if(group==='leader'){const d=data.leader[key];$('#leaderOutput').innerHTML='<h3>'+d[0]+'</h3><p>'+d[1]+'</p><div class="tiny">'+d[2]+'</div>'}
+}
+frames.forEach((f,i)=>{
+ f.style.left=positions[i][0]+'px';f.style.top=positions[i][1]+'px';f.dataset.index=i;
+ const btn=document.createElement('button');btn.className='map-hit';btn.setAttribute('aria-label','Abrir '+f.dataset.title);btn.addEventListener('click',()=>go(i));f.append(btn);
+ const cap=document.createElement('div');cap.className='map-caption';cap.setAttribute('aria-hidden','true');cap.innerHTML='<span>'+f.dataset.chapter+'</span><strong>'+f.dataset.title+'</strong><small>Explorar</small>';f.append(cap);
+ const note=document.createElement('div');note.className='slide-notes-print';note.textContent='Guion: '+notes[i];f.querySelector('.slide').append(note);
+ const dot=document.createElement('button');dot.className='route-dot';dot.setAttribute('aria-label','Diapositiva '+(i+1)+': '+f.dataset.title);dot.title=f.dataset.title;dot.addEventListener('click',()=>go(i));$('#dots').append(dot);
+});
+$$('[data-tabs]').forEach(group=>{
+ const name=group.dataset.tabs;
+ group.querySelectorAll('[role="tab"]').forEach(btn=>{btn.setAttribute('aria-controls',name+'Output');btn.id=name+'-'+btn.dataset.key;btn.addEventListener('click',()=>selectTab(name,btn.dataset.key));btn.addEventListener('keydown',e=>{
+ if(!['ArrowRight','ArrowLeft','ArrowDown','ArrowUp','Home','End'].includes(e.key))return;e.preventDefault();e.stopPropagation();const bs=[...group.querySelectorAll('[role="tab"]')];let i=bs.indexOf(btn);i=e.key==='Home'?0:e.key==='End'?bs.length-1:(i+(['ArrowRight','ArrowDown'].includes(e.key)?1:-1)+bs.length)%bs.length;selectTab(name,bs[i].dataset.key,true);
+ })});
+ const initial=group.querySelector('[aria-selected="true"]');selectTab(name,initial.dataset.key);
+});
+$$('.value-piece').forEach(p=>p.addEventListener('click',()=>selectTab('value',p.dataset.value)));
+$$('[data-go]').forEach(b=>b.addEventListener('click',()=>go(Number(b.dataset.go))));
+$('#prevBtn').addEventListener('click',()=>go(current-1));$('#nextBtn').addEventListener('click',()=>go(current+1));
+$('#mapBtn').addEventListener('click',()=>setOverview(!overview));$('#sourcesBtn').addEventListener('click',()=>go(13));
+$('#notesBtn').addEventListener('click',()=>openDialog('Guion · '+frames[current].dataset.title,'<p>'+notes[current]+'</p><p class="tiny muted">Apoyo para la exposición. Usa “Cerrar” o la tecla Escape para volver.</p>'));
+$('#matrixBtn').addEventListener('click',()=>openDialog('Cómo comparamos las alternativas','<p>Escala de 1 (menor contribución) a 5 (mayor contribución). Pesos y calificaciones son una valoración ilustrativa de los autores; requieren contraste participativo.</p><table><thead><tr><th>Criterio</th><th>Peso</th><th>Oferta vigente</th><th>Digital total</th><th>Red territorial</th></tr></thead><tbody><tr><td>Inclusión y misión</td><td>30 %</td><td>3</td><td>2</td><td>5</td></tr><tr><td>Pertinencia</td><td>25 %</td><td>2</td><td>4</td><td>5</td></tr><tr><td>Viabilidad de ejecución</td><td>20 %</td><td>4</td><td>3</td><td>3</td></tr><tr><td>Adaptación y aprendizaje</td><td>15 %</td><td>2</td><td>3</td><td>5</td></tr><tr><td>Sostenibilidad operativa</td><td>10 %</td><td>3</td><td>3</td><td>4</td></tr><tr><th>Total ponderado</th><th>100 %</th><th>2,80</th><th>2,95</th><th>4,50</th></tr></tbody></table><p><b>Fórmula:</b> suma de cada calificación multiplicada por su peso. Red territorial: 5×0,30 + 5×0,25 + 3×0,20 + 5×0,15 + 4×0,10 = 4,50.</p><p class="tiny">La red recibe una valoración alta porque permite ajustar rutas con el territorio. Su viabilidad recibe 3: exige coordinación, apoyos y recursos aún por validar. Ampliar lo vigente resulta más sencillo de ejecutar; la digitalización total enfrenta barreras potenciales de acceso. La matriz explicita una posición académica y no prueba una superioridad empírica.</p>'));
+$$('[data-metric]').forEach(b=>b.addEventListener('click',()=>{const d=metricData[b.dataset.metric];openDialog('Ficha · '+d.title,'<h3>'+d.target+'</h3><p><b>Fórmula.</b> '+d.formula+'</p><p><b>Fuente.</b> '+d.source+'</p><p>'+d.owner+'</p><p><b>Límites de interpretación.</b> '+d.limit+'</p><p class="tiny muted">Indicador propuesto: requiere línea base, factibilidad de medición y validación institucional.</p>')}));
+$('#closeDialog').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
+async function fullscreen(){try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen()}catch{showToast('Puedes ampliar la ventana desde los controles de tu navegador.')}}$('#fullBtn').addEventListener('click',fullscreen);
+if(matchMedia('(prefers-reduced-motion:reduce)').matches){document.documentElement.dataset.motion='off';$('#motionBtn').setAttribute('aria-pressed','true')}
+$('#motionBtn').addEventListener('click',()=>{const off=document.documentElement.dataset.motion!=='off';document.documentElement.dataset.motion=off?'off':'on';document.documentElement.dataset.userMotion=off?'off':'on';$('#motionBtn').setAttribute('aria-pressed',String(off));$('#motionBtn').title=off?'Activar animaciones':'Reducir animaciones';showToast(off?'Movimiento reducido':'Animaciones activas')});
+document.addEventListener('keydown',e=>{
+ if(dialog.open)return;if(e.altKey||e.ctrlKey||e.metaKey)return;
+const interactive=e.target.closest('input,select,textarea,summary,[role="tab"],[tabindex="0"]') || (e.key===' ' && e.target.closest('button,a'));
+ if(e.key==='Escape'&&overview){setOverview(false);return}
+ if(['ArrowRight','ArrowDown','PageDown','ArrowLeft','ArrowUp','PageUp','Home','End',' '].includes(e.key)&&!interactive){
+ e.preventDefault();if(e.key==='Home')go(0);else if(e.key==='End')go(frames.length-1);else go(current+(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)?-1:1));return}
+ if(e.key.toLowerCase()==='m'){setOverview(!overview)}
+ if(e.key.toLowerCase()==='g')$('#notesBtn').click();if(e.key.toLowerCase()==='f')fullscreen();
+});
+addEventListener('resize',camera);addEventListener('hashchange',()=>{const n=parseInt(location.hash.slice(1),10);if(Number.isFinite(n)&&n>=1&&n<=frames.length)go(n-1,true)});
+const start=parseInt(location.hash.slice(1),10);go(Number.isFinite(start)?start-1:0,true);
+</script>
+</body>
+</html>
